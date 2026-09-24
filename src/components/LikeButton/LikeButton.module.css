@@ -1,0 +1,40 @@
+/* Default — серый, Hover — светло-красный, Liked — красный */
+.likeButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: var(--radius-btn);
+    background: var(--color-disabled);
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+    .likeButton:hover {
+        background: #fecaca;
+    }
+
+.liked,
+.liked:hover {
+    background: var(--color-like);
+    color: #fff;
+}
+
+.likeButton:active {
+    transform: scale(0.95);
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+.counter {
+    min-width: 16px;
+    font-weight: 700;
+}
