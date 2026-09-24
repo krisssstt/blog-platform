@@ -37,7 +37,7 @@ React-приложение, в котором UI-компоненты из ди�
 1. Клонировать репозиторий и перейти в папку проекта:
 
    ```bash
-   git clone <ссылка-на-репозиторий>
+   git clone https://github.com/krisssstt/blog-platform/
    cd blog-platform
    ```
 
